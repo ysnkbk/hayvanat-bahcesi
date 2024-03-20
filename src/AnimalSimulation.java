@@ -30,10 +30,8 @@ public class AnimalSimulation {
         addAnimals(Sheep.class, 15, false);
         addAnimals(Cow.class, 5, true);
         addAnimals(Cow.class, 5, false);
-        addAnimals(Chicken.class, 10, true);
-        addAnimals(Chicken.class, 0, false); // Tavukların cinsiyeti belirtilmedi, her biri dişi kabul edildi
-        addAnimals(Rooster.class, 5, true);
-        addAnimals(Rooster.class, 5, false);
+        addAnimals(Chicken.class, 10, false);
+        addAnimals(Rooster.class, 10, true);
         addAnimals(Wolf.class, 5, true);
         addAnimals(Wolf.class, 5, false);
         addAnimals(Lion.class, 4, true);
